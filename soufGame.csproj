@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="assets\adventurer-sprites.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\adventurer-sprites.png" />
+  </ItemGroup>
+
 </Project>

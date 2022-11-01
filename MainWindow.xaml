@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:soufGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.1" Color="White"/>
+    </Window.Background>
+    <Canvas x:Name="gameCanvas">
+        <!--<Button Width="200" Height="50">button</Button>-->
+        <Rectangle x:Name="testRect" Width="100" Height="100" Fill="Aqua"/>
+    </Canvas>
 
-    </Grid>
+
 </Window>
